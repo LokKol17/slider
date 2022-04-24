@@ -1,3 +1,3 @@
 Aoba!
 
-É somente um eemplo de barra lateral em JS
+É somente um exemplo de barra lateral em JS
