@@ -56,6 +56,8 @@ fieldset legend {
     font-size: 1.4em;
 }
 .enviar {
+    position: relative;
+    top: -170px;
     cursor: pointer;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -78,4 +80,21 @@ fieldset legend {
     background-color: red;
     color: white;
     transform: scale(1.150) rotate(1deg);
+}
+#d1 {
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 500px;
+}
+#d1 p {
+    font-size: 3em;
+    font-weight: bolder;
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+#d1:hover p{
+    color: rgb(255, 0, 0);
+    display: block;
 }
