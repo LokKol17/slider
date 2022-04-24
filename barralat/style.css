@@ -67,7 +67,12 @@ a:hover {
     color: black;
     margin: 0 0 0 0;
 }
-
+.close:hover {
+    background-color: red;
+}
+.close p:hover {
+    color: #fff;
+}
 #menu {
     animation-name: anime;
     animation-duration: .6s;
