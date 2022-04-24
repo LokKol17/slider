@@ -88,6 +88,7 @@ a:hover {
 }
 #menu ul li:hover {
     cursor: pointer;
+    color: rgb(255, 0, 0);
 }
 #bar:hover {
     color: rgb(255, 0, 0);
