@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="stylesheet" href="data.css">
     <meta charset="UTF-8">
@@ -8,6 +8,44 @@
     <title>Dados</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Formulario</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <h2>Insira suas informações abaixo</h2>
+                <label class="bloc" for="name">Nome e Sobrenome</label>
+                <input type="text" class="inp-1" id="name" required placeholder="Zeca de Abreu">
+
+                <label class="bloc" for="email">E-mail</label>
+                <input type="email" class="inp-1" id="email" required placeholder="example@domain.com">
+
+                <label class="bloc" for="tel">Telefone</label>
+                <input type="tel" class="inp-1" required placeholder="(XX) XXXX-XXXX">
+
+                <label class="bloc" for="msg">Insira sua dúvida</label>
+                <textarea name="msg" class="inp-1" required id="msg" cols="50" rows="10"></textarea>
+
+                <fieldset>
+                <legend>Como prefere ser Contatado?</legend>
+                
+                    <label for="r-email" class="rad"><input checked type="radio" id="r-email" name="r">Email</label>
+                
+                    <label for="r-lig" class="rad"><input type="radio" id="r-lig" name="r">Ligação</label>
+                
+                    <label for="r-whats" class="rad"><input type="radio" id="r-whats"  name="r">whatsapp</label>
+                
+                </fieldset>
+                <input type="submit" class="enviar" value="Enviar">
+            </form>
+
+        </section>
+    </main>
 </body>
 </html>
