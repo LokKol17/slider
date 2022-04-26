@@ -142,5 +142,8 @@ footer {
     footer {
         width: auto;
     }
+    #menu {
+        height: 100%;
+    }
 
 }
