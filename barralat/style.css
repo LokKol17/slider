@@ -109,7 +109,7 @@ a:hover {
 #menu ul #item5 a {
     color: white;
 }
-#t1, #t2, #t3, #t4, #t5{
+.lorens{
 
     height: 150px;
     width: 800px;
@@ -134,7 +134,7 @@ footer {
     #bar {
         position: static;
     }
-    #t1, #t2, #t3, #t4, #t5{
+    .lorens{
         overflow: hidden;
         width: auto;
         height: auto;
