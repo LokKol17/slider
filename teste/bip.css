@@ -1,0 +1,12 @@
+.bip {
+    content: "_";
+    display: inline;
+    animation-name: bip;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bip {
+    1%{opacity: 0;}
+    100%{opacity: 1; }
+}
